@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.webkit{
+    -webkit-appearance: none;
+}
+.webkit::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: rgb(243, 243, 243);
+    width: 1rem;
+    height:1rem;
+    border-radius: 50% ;
+    cursor: pointer;
+    
+}

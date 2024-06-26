@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Music App</title>
+</head>
+<body class="h-screen w-screen  bg-white flex justify-center">
+    <div class="container text-white min-h-full w-full bg-blue-950 p-6 rounded-3xl">
+
+        <div class="flex justify-between ">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="content flex justify-center flex-col items-center mt-12">
+            <img src="img/shreyaghoshal.jpg" alt="singer" class="singerImg rounded-full h-48 w-48 object-cover">
+            <p class="songName text-lg font-medium">Bahara</p>
+            <p class="singerName">Shreya Ghoshal</p>
+        </div>
+
+        
+        <div class="player flex flex-col justify-center items-center mt-24">
+            <audio src="songs/audio1.mp3" class="audio hidden" controls></audio>
+            <div class="w-4/5 items-center flex justify-between ">
+                <div class="currTime">1:00</div>
+                <div class="SongDur">4:00</div>
+            </div>
+            <input type="range" value="0" class="progress w-4/5 webkit bg-white h-1 mt-3 rounded-sm ">
+            </div>
+
+            <div class="flex justify-around mt-4">
+                <div><i class="fa-solid fa-backward prev p-4 bg-gray-900 rounded-full  cursor-pointer"></i></div>
+                <div><i class="fa-solid fa-play play p-4 bg-gray-900 rounded-full cursor-pointer"></i></div>
+                <div><i class="fa-solid fa-forward next cursor-pointer  p-4 bg-gray-900 rounded-full "></i></div>
+            </div>
+       
+
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

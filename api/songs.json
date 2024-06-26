@@ -1,0 +1,26 @@
+[
+    {
+        "img": "img/shreyaghoshal.jpg",
+        "songName": "Bahara",
+        "singerName": "Shreya Ghoshal",
+        "audio":"songs/audio1.mp3"
+    },
+    {
+        "img": "img/alka.jpg",
+        "songName": "Agar Tum Saath Ho",
+        "singerName": "Alka Yagnik, Arijit Singh",
+        "audio":"songs/audio2.mp3"
+    },
+    {
+        "img": "img/monali.jpg",
+        "songName": "Moh Moh Ke Dhaage",
+        "singerName": "Monali Thakur",
+        "audio":"songs/MohMohKe.mp3"
+    },
+    {
+        "img": "img/arijit.jpg",
+        "songName": "Tum Kya Mile",
+        "singerName": "Arijit Singh, Shreya Ghoshal",
+        "audio":"songs/tumkya.mp3"
+    }
+]
